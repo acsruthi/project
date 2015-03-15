@@ -1,0 +1,293 @@
+/*
+Theme Name:		Movie House
+Author:			Sruthi Arathil Candoth
+Date:			01.09.2014
+Description:	A clean and simple custom CSS design for the movie review dashboard
+*/
+
+
+/*Ensure HTML5 semantic elements work in older browsers */
+header, section, footer, aside, nav,article,figure{
+   display:block;
+}
+
+#wrap{
+   margin:0 auto;
+   width:75%;
+   background-color:#fff;
+   border-radius: 5px; /* Modern Browsers */
+    -moz-border-radius: 10px; /* legacy Mozilla */ 
+    -webkit-border-radius: 10px; /* legacy Safari */
+	overflow:hidden;
+	box-shadow:2px 2px 5px 5px #848484;
+}
+
+body{
+    margin:2;
+    padding:0;
+    background-color:#fff;
+    font-size:14px; 
+    line-height:20px;
+   /* background-color:#1C1C1C;*/
+    font-family:Verdana,sans-sariff;
+}
+
+
+
+h1,h2{
+   font-family:georgia,serif;
+} 
+
+/* css for navigation */
+nav{ 
+     background:#424242;
+	 margin:0;
+	/*border-radius: 10px; /* Modern Browsers */
+   /* -moz-border-radius: 10px; /* legacy Mozilla */ 
+    /*-webkit-border-radius: 10px; /* legacy Safari */
+	 
+    
+   }
+  
+nav li{ 
+    height:40px; 
+    line-height:40px; 
+   
+    } 
+
+.main ul{
+     text-align:right;
+     margin:0px;
+ }
+.main a{
+    text-decoration:none; 
+    padding:10px;
+    color:#fff; 
+	
+}
+
+.main a:hover{
+   color:#DF3A01;
+}
+.main li{
+   display:inline-block; 
+  
+}
+
+.main #cms{
+    float:left;
+	color:#fff;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.secondary a{
+         text-decoration:none; 
+		 color:#000; 
+		 display:block;
+		 padding:5px;
+		 text-align:left;
+		
+		 
+}
+
+.secondary a:hover{
+    
+   color:#DF3A01;
+
+}
+
+.secondary ul{
+     list-style-type:none;
+	
+	 padding:10px;
+	 display:inline; 
+	 
+} 
+
+.secondary ul li a{
+     font-size:16px;
+	 text-align:center; 
+}
+
+.secondary {
+     width:15%;
+	 float:left;
+	 margin-top:6%;
+	 margin-left:1%;
+	
+	 background:#f2f2f2;
+	 border-radius: 5px; /* Modern Browsers */
+    -moz-border-radius: 5px; /* legacy Mozilla */ 
+    -webkit-border-radius: 5px; /* legacy Safari */
+	 
+}
+
+.secondary .current{
+	  background:#424242;
+	  color:#fff;
+	  margin:0;
+	  padding:0;
+}
+/*-------------------*/
+
+/*css for content*/
+
+#content{
+   margin-left:8%;
+   float:left;
+   margin-top:5%;
+}
+
+/*css for table*/
+
+table {
+    border-collapse:collapse;
+    border-style:solid;
+    border-width:1px;
+    border-color:#707070;
+    width:100%;
+	 border-radius: 10px; /* Modern Browsers */
+   -moz-border-radius: 10px; /* legacy Mozilla */ 
+    -webkit-border-radius: 10px; /* legacy Safari */
+	
+     padding:10px;  
+	
+}
+
+tr td a{
+    color:#000;
+	border-bottom: 1px dotted #DF3A01;
+}
+tr td{
+   padding:10px;
+  
+}
+
+.alt tr:nth-child(even)
+{
+   background:#f8f8f8;
+}
+
+.center{
+    text-align:center;
+}
+
+tr th{
+    color:#FFFFFF;
+    background:#424242;
+	 padding:5px;
+    text-align:center;
+    vertical-align:top;
+	  font:18px;
+}
+
+ .themeTable{
+   border:none;
+    
+}
+
+.themeTable td{
+   padding: 30px;
+}
+
+.themeTable td img{
+    box-shadow:1px 1px 2px 2px #848484;
+}
+
+/*----------*/
+
+a,input[type="button"]{
+   text-decoration:none;
+}
+
+.success{
+   color:#298A08;
+}
+
+.error{
+   color:#DF3A01;
+}
+
+/* forms */
+
+label{
+	display:block;
+	float:left;
+	width:150px;
+    margin-left:10px;
+	margin-bottom:0;
+	
+}
+
+input{
+	width:150px;
+	
+}
+
+input[type="submit"]{
+	
+	width:150px;
+    margin-left:0px;
+}
+
+/*css for pagination*/
+
+#pagination{
+	color:#181818;
+	margin-top:10px;
+	text-align:center;
+	clear:both;
+}
+
+.activePagination{
+	text-decoration:none;
+	color:#fff !important;
+	background-color:#424242;
+	text-align:center;
+	padding:4px 10px 4px 10px;
+	border:none;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+	height:auto;
+	margin:5px;
+}
+
+#pagination a{
+    color:#000;
+}
+
+.page {
+    display: inline-block;
+    padding: 0px 9px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e9e9e9;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+    font-size: .875em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717171;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+}
+
+/*-----------*/
+
+/* css for footer */
+#footer{ 
+   clear:both;
+   text-align:center;
+   margin-top:50%;
+   background:#424242;
+   color:#fff;
+   padding:12px;
+}
+
+
+
+
+
+
+  
+   

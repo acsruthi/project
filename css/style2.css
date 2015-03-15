@@ -1,0 +1,287 @@
+/*
+Theme Name:		Movie House
+Author:			Sruthi Arathil Candoth
+Date:			01.09.2014
+Description:	A clean and simple custom CSS design for the movie review website
+*/
+
+
+/*Ensure HTML5 semantic elements work in older browsers */
+header, section, footer, aside, nav,article,figure{
+   display:block;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#fff;
+    font-size:15px; 
+    line-height:25px;
+    background:url('../images/bgBlack.png');
+    background-size:cover;
+    font-family:Arial;
+}
+
+h1,h2{
+   font-family:"Trebuchet MS";
+} 
+ 
+/*CSS for navigation
+nav{
+    width:100%;
+    background-color:#DF3A01;
+    
+    }
+.main ul,li,a{
+     color:#fff;
+     text-decoration:none;
+     
+     display:inline;
+     text-align:left;
+     margin:0;
+     
+}
+
+ .registration ul,li,a{
+    text-align:right;
+   
+    height:30px;
+    margin:0;
+    padding:5px;
+    font-weight:bold;
+}
+
+.registration{
+   background-color:#000;
+   font-size:14px;
+}
+
+ /*-------------*/
+ 
+
+/* nav */ 
+nav{ 
+    background-color:#585858; 
+    
+   }
+
+.main ul{
+    text-align:center;
+    list-style-type:none;
+    margin:0;
+	width: 70%;
+	display: inline-block;
+} 
+
+.main ul li a{
+     font-size:20px;
+     font-family:Trebuchet MS;
+}
+
+.registration ul{
+     text-align:right;
+     
+     background-color:#000;
+     padding-right:25px;
+     margin:0;
+     }
+
+ .registration ul a{
+   color:#fff;
+   text-decoration:none; 
+   
+ }
+ 
+ .registration ul a:hover{
+     color:#fff;
+     text-shadow: 0 1px 0 #fff;
+ }
+ 
+nav li{ 
+    height:40px; 
+    line-height:40px; 
+    display:inline-block; 
+    width:120px; 
+  
+    } 
+
+.main a{ 
+    text-decoration:none; 
+    color:#fff; 
+    display:block; 
+    } 
+
+.main a:hover{
+    background-color:#BDBDBD;
+    color:#000;
+ /*   border-radius: 5px; /* Modern Browsers 
+    -moz-border-radius: 5px; /* legacy Mozilla *
+    -webkit-border-radius: 5px; /* legacy Safari */
+} 
+
+.alternative{
+    color:#8A0808;
+}
+
+
+/*css for search*/
+#search{
+   
+   width: 25%;
+   display:inline-block;
+} 
+
+
+/*css for middle and content*/
+
+#content a{
+    color:#585858;
+    
+   }
+   
+#content{
+   width:100%;
+   float:left;
+   padding:15px;
+   background:#F2F2F2;
+   box-shadow:2px 2px 5px 5px #848484;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+
+#middle{
+    width:78%;
+    float:left;
+    border-right:1px solid grey;
+    margin:5px;
+}
+
+
+#left{
+   width:50%;
+   float:left;
+}
+
+#right{
+    width:50%;
+    float:right;
+}
+
+
+/*css for pagination*/
+#pagination{
+    text-align:center;
+    margin:20px;
+}
+
+
+
+/*css for member page*/
+.col-md-2{
+    margin-top:30px; 
+}
+
+.img-responsive{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* forms */
+
+label{
+	display:block;
+	float:left;
+	width:150px;
+    margin-left:10px;
+	margin-bottom:0;
+}
+
+input{
+	width:200px;
+}
+
+input[type="submit"]{
+	
+	width:150px;
+    margin-left:0px;
+}
+
+#pw input[type="submit"] {
+   margin-left:0px;
+}
+
+input[type="radio"]{
+    width:100px;
+}
+
+/*---------*/
+
+#wrap{
+   margin:0 auto;
+   width:70%;
+   
+   background-color:#fff;
+}
+
+
+/*css for review table */
+
+table tr td{
+  padding:10px;
+ }
+ 
+ table{
+    float:left;
+    width:100%;
+    padding:10px;
+    background-color:#fff;
+ }
+ 
+ 
+
+ /*css for sidebar*/
+ 
+ #sidebar {
+   float:right;
+   
+   background-color:#F2F2F2;
+   margin:15px;
+   padding:8px;
+   
+}
+
+
+/*css for class*/
+.keyword{
+   background-color:#f7c5cf;
+}
+.error{
+    color:red;
+}
+.success{
+   color:#DF7401;
+}
+
+
+
+
+/*CSS FOR FOOTER*/
+#footer{
+    text-align:center;
+    width:100%;
+    height:80px;
+    background-color:#585858;
+    color:#fff;
+    clear:both;
+    margin-top:50px;
+}
+#footer a{
+    text-decoration:none;
+    color:#fff;
+    display:inline;
+    padding:10px;
+}
+
