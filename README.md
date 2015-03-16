@@ -2,12 +2,10 @@
 
 This project is a movie review website, which I have developed as a part of my assignments in TAFE.
 
-Technologies Used
+Technologies Used:
 
 Front-end	: HTML5, CSS3, JavaScript
-
 Backend	  : PHP
-
 Database	: MySQL
 
 Summary:
