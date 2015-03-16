@@ -1,13 +1,17 @@
 # project
-My projects
+
 This project is a movie review website, which I have developed as a part of my assignments in TAFE.
 
 Technologies Used
+
 Front-end	: HTML5, CSS3, JavaScript
+
 Backend	  : PHP
+
 Database	: MySQL
 
 Summary:
+
 1. Home page shows the most recent reviews
 2. Categories and archives option are provided
 3. User can search the contents; view the review of searched movie
