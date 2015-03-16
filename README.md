@@ -5,7 +5,9 @@ This project is a movie review website, which I have developed as a part of my a
 Technologies Used:
 
 Front-end	: HTML5, CSS3, JavaScript
+
 Backend	  : PHP
+
 Database	: MySQL
 
 Summary:
